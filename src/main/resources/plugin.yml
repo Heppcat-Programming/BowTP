@@ -1,0 +1,15 @@
+name: BowTP
+version: 1.0
+main: com.heppcat.BowTP
+api-version: 1.16
+commands:
+  arrows:
+    description: Gives a Stack of Arrows
+    usage: /arrows
+    permission: BowTP.getArrows
+    permission-message: You do not have permission to use this command
+  bow:
+     description: Gives a Bow
+     usage: /bow
+     permission: BowTP.getBow
+     permission-message: You do not have permission to use this command
